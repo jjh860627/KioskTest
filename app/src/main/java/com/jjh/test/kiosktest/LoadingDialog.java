@@ -12,7 +12,7 @@ import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 
 /**
- * Created by jjh860627 on 2017. 7. 4..
+ * Created by jjh860627 on 2017. 7. 4..   
  */
 
 public class LoadingDialog extends android.support.v4.app.DialogFragment {
