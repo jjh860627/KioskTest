@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.jjh.test.kiosktest.MainActivity"
+    android:padding="10dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="- Brightness Setting"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#666666"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="30dp">
+        <Button
+            android:id="@+id/btnMaxBright"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Max"/>
+        <Button
+            android:id="@+id/btnMinBright"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Min"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="- Auto Brightness Setting"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#666666"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="30dp">
+        <Button
+            android:id="@+id/btnAutoBrightOn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="On"/>
+        <Button
+            android:id="@+id/btnAutoBrightOff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Off"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="- Wifi Setting"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#666666" />
+    <CheckBox
+        android:id="@+id/cbAutoConnect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Auto connection to hicare"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="30dp">
+        <Button
+            android:id="@+id/btnWifiOn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="On"/>
+        <Button
+            android:id="@+id/btnWifiOff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Off"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnProgress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Show Progress"/>
+</LinearLayout>
